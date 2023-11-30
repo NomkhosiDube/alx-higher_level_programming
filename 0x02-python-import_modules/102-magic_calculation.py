@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 def magic_calculation(a, b):
     add, sub = __import__('magic_calculation_102', globals(), locals(), ['add', 'sub'], 0).add, __import__('magic_calculation_102', globals(), locals(), ['add', 'sub'], 0).sub
     if a < b:
@@ -8,4 +7,3 @@ def magic_calculation(a, b):
         return c
     else:
         return sub(a, b)
-
